@@ -25,9 +25,35 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/primeng/resources/themes/lara-light-blue/theme.css",
+              "node_modules/primeng/resources/primeng.min.css",
+              "src/assets/footwear-master/footwear-master/css/animate.css",
+              "src/assets/footwear-master/footwear-master/css/icomoon.css",
+              "src/assets/footwear-master/footwear-master/css/ionicons.min.css",
+              "src/assets/footwear-master/footwear-master/css/bootstrap.min.css",
+              "src/assets/footwear-master/footwear-master/css/magnific-popup.css",
+              "src/assets/footwear-master/footwear-master/css/flexslider.css",
+              "src/assets/footwear-master/footwear-master/css/owl.theme.default.min.css",
+              "src/assets/footwear-master/footwear-master/css/bootstrap-datepicker.css",
+              "src/assets/footwear-master/footwear-master/fonts/flaticon/font/flaticon.css",
+              "src/assets/footwear-master/footwear-master/css/style.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/footwear-master/footwear-master/js/jquery.min.js",
+              "src/assets/footwear-master/footwear-master/js/popper.min.js",
+              "src/assets/footwear-master/footwear-master/js/bootstrap.min.js",
+              "src/assets/footwear-master/footwear-master/js/jquery.easing.1.3.js",
+              "src/assets/footwear-master/footwear-master/js/jquery.waypoints.min.js",
+              "src/assets/footwear-master/footwear-master/js/jquery.flexslider-min.js",
+             
+              "src/assets/footwear-master/footwear-master/js/jquery.magnific-popup.min.js",
+              "src/assets/footwear-master/footwear-master/js/magnific-popup-options.js",
+              "src/assets/footwear-master/footwear-master/js/bootstrap-datepicker.js",
+              "src/assets/footwear-master/footwear-master/js/jquery.stellar.min.js",
+              "src/assets/footwear-master/footwear-master/js/main.js"
+
+            ]
           },
           "configurations": {
             "production": {
@@ -94,5 +120,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "9772682a-8539-40ad-b747-8fd3edd8da9c"
   }
 }

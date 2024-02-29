@@ -1,0 +1,32 @@
+<div class="container">
+  <i class="fas fa-user user-icon"></i>
+  <h1 class="top-text">Already Have an Account?</h1>
+  
+  <div class="formGroup">
+    <span class="fas fa-envelope"></span>
+    <input type="text" class="formControl" id="inputEmail" placeholder="Email" #userEmail
+    required>
+  </div>
+  
+  <div class="formGroup">
+    <span class="fas fa-lock"></span>
+    <input type="password"  class="formControl" id="inputPassword" placeholder="Password" #userPwd
+    required>
+  </div>
+  
+  <button type="submit" class="submit-button" id="signInButton" routerLink="/register" (click)="authService.Login(userName.value, userPassword.value)">Sign In</button>
+
+  <h2 class="or-text">Or</h2>
+
+  <div class="social-buttons">
+    <i class="fab fa-google" onclick="authService.GoogleAuth()"></i>
+    <i class="fab fa-facebook" onclick="authService.facebookAuth()"></i>
+  </div>
+ <!--Redirectio to register components -->
+ <div class="text-center text-lg-start mt-4 pt-2">
+  <p class="small mt-2 pt-1 mb-0">Forget Password ?
+    <a  routerLink="/forgot-password"
+        class="link-danger">send email </a></p>
+</div>
+  <p class="signup-text">Don't have an account? <a href="register" id="goToSignUp">Sign Up</a></p>
+</div>
